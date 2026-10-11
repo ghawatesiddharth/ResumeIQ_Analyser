@@ -1,0 +1,32 @@
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: resumeiq-backend
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      HF_HUB_DISABLE_XET: "1"
+
+    restart: unless-stopped
+
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+
+    container_name: resumeiq-frontend
+
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - backend
+
+    restart: unless-stopped

@@ -1,0 +1,15 @@
+Data Scientist
+
+We are looking for a Data Scientist to join our team.
+
+Requirements:
+
+- Strong Python programming skills.
+- Experience with SQL and PostgreSQL.
+- Knowledge of Machine Learning and Deep Learning.
+- Experience with Pandas, NumPy and scikit-learn.
+- Experience with FastAPI for building APIs.
+- Familiarity with Docker and AWS.
+- Experience with Exploratory Data Analysis and Feature Engineering.
+- Knowledge of Git and GitHub.
+- Experience with Natural Language Processing is a plus.
