@@ -1,7 +1,6 @@
 # ResumeIQ — AI Resume Analyzer & Job Match Assistant
 
 ResumeIQ is an AI-powered resume analysis application that helps job seekers understand how well their resume aligns with a target job description. It extracts information from PDF resumes, identifies technical skills, calculates skill-match and text-similarity scores, generates a transformer-based resume summary, and provides actionable improvement insights.
-
 The project combines Natural Language Processing (NLP), machine learning techniques, a React frontend, a FastAPI backend, and Docker containerization in one application.
 
 ## Features
